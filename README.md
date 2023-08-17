@@ -11,7 +11,7 @@ Flask, SQLALchemy as an ORM , Postgres, Docker, Docker Compose and TablePlus.
 
 >>> Required PIP 
 
-# requirements.txt
+# requirements.txt ---> just for reference 
 >>> The requirements.txt file contains all the dependencies of the project.
 Explanation of the dependencies we used in Project:
 
@@ -22,7 +22,7 @@ Explanation of the dependencies we used in Project:
   > Flask-SQLAlchemy is the ORM to make the queries to the database.
 
 
-# Let's populate the Dockerfile :
+# Let's populate the Dockerfile : ---> just for reference 
 
 > Use an official Python runtime as a parent image
   FROM python:3.8-slim
