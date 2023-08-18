@@ -8,11 +8,11 @@ services:
     ports:
       - "4000:4000"
     environment:
-      - DB_URL=postgresql://postgres:postgres@flask_db:5432/postgres
+      - DB_URL=postgresql://postgres:postgres@flask_db_new:5432/postgres
     depends_on:
       - flask_db
   flask_db:
-    container_name: flask_db
+    container_name: flask_db_new
     image: postgres:12
     ports:
       - "5432:5432"
